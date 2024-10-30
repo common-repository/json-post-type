@@ -1,0 +1,13 @@
+{
+  "name": "json-configuration-editor",
+  "version": "1.1.0",
+  "description": "Create a custom post type for the editing and publishing of arbitrary JSON configurations",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "cp ./node_modules/jsoneditor/dist/jsoneditor.min.js ./assets/jsoneditor/ && cp ./node_modules/jsoneditor/dist/jsoneditor.min.css ./assets/jsoneditor/ && cp -R ./node_modules/jsoneditor/dist/img/ ./assets/jsoneditor/img/"
+  },
+  "dependencies": {
+    "jsoneditor": "^8.4.1"
+  }
+}

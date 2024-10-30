@@ -1,0 +1,10 @@
+{
+    "name"       : "json-post-type",
+    "description": "Register a post type for managing arbitrary JSON configurations with an easy WYSIWYG editor.",
+    "homepage"   : "https://wordpress.org/plugins/json-post-type/",
+    "type"       : "wordpress-plugin",
+    "license"    : "GPL-2.0+",
+    "support"    : {
+        "forum": "https://wordpress.org/support/plugin/json-post-type"
+    }
+}
